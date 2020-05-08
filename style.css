@@ -9,7 +9,7 @@
   content: '';
 }
 .container{
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background-color: #B0DCCB;
 
@@ -60,14 +60,17 @@
   float: left;
 }
 .own{
-  width: 100%;
-  height: 10%;
   background-color: #F1F1F1;
   border-right: 1px solid lightgrey;
 }
+.adviser{
+  background-color: #92D4EA;
+}
 .contacts{
   width: 100%;
-  height: 10%;
+  height: 6%;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
 }
 .msgbox{
   width: 60%;
@@ -78,6 +81,21 @@
 }
 .sender{
   width: 100%;
-  height: 10%;
+  height: 6%;
   background-color: #F1F1F1;
+}
+.search{
+  width: 94%;
+  border: none;
+  padding-left: 15px;
+}
+#searcher{
+  background-color: white;
+  height: 3%;
+  border-radius: 5px;
+}
+img{
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
 }
