@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clearfix::after{
+  clear: both;
+  display: table;
+  content: '';
+}
+.container{
+  width: 100vw;
+  height: 100vh;
+  background-color: #B0DCCB;
+
+}
+.otop{
+  width:100%;
+  height: 20px;
+  background-color: #065F63;
+
+}
+.oaside-left{
+  width: 10%;
+  height: calc(100% - 40px);
+  background-color: #B0DCCB;
+  float: left;
+
+}
+.deco-left{
+  width: 100%;
+  height: 10%;
+  background-color: #065F63;
+}
+.oaside-right{
+  width: 10%;
+  height: calc(100% - 40px);
+  background-color: #B0DCCB;
+  float: right;
+
+}
+.deco-right{
+  width: 100%;
+  height: 10%;
+  background-color: #065F63;
+  display: inline-block;
+}
+.wbox{
+  width: 80%;
+  height: 95%;
+  margin: auto;
+  float: left;
+  background-color: #ffff;
+}
+.contactbox{
+  width: 40%;
+  height: 100%;
+  display: inline-block;
+  background-color: #F6F8F7;
+  float: left;
+}
+.own{
+  width: 100%;
+  height: 10%;
+  background-color: #F1F1F1;
+  border-right: 1px solid lightgrey;
+}
+.contacts{
+  width: 100%;
+  height: 10%;
+}
+.msgbox{
+  width: 60%;
+  height: 100%;
+  background-image: url("wallpaper.jpg");
+  background-repeat: repeat;
+  float: left;
+}
+.sender{
+  width: 100%;
+  height: 10%;
+  background-color: #F1F1F1;
+}
