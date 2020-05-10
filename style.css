@@ -66,16 +66,32 @@
 }
 .adviser{
   background-color: #92D4EA;
+  display: flex;
+
+
+}
+.bell-splesh{
+  width: 46px;
+  height: 46px;
+  display: inline-block;
+}
+.notice{
+  font-size: 12px;
+  width: 220px;
+  height: 46px;
+  display: inline-block;
 }
 .contacts{
   width: 100%;
   height: 6%;
   border-top: 1px solid lightgrey;
   border-bottom: 1px solid lightgrey;
+  display: flex;
+
 }
 .msgbox{
   width: 60%;
-  height: 100%;
+  height: 95%;
   background-image: url("wallpaper.jpg");
   background-repeat: repeat;
   float: left;
@@ -91,15 +107,16 @@
   border: none;
   padding-left: 15px;
 }
-.searcher{
+#searcher{
   background-color: white;
   height: 3%;
   border-radius: 5px;
 }
 img{
-  width: 49px;
-  height: 49px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
+  margin-top: 1px;
 }
 .msg-text-in{
   width: 150px;
@@ -137,4 +154,18 @@ img{
   width: 20px;
   height: 10px;
   background-color: yellow;
+}
+.msg{
+  width: 100%;
+}
+.msgtype{
+  border: none;
+  margin-top: 15px;
+  margin-left: 25px;
+}
+#face>i{
+  margin-left: 15px;
+}
+#mic>i{
+  margin-left: 180px;
 }
