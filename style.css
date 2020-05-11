@@ -63,27 +63,41 @@
 .own{
   background-color: #F1F1F1;
   border-right: 1px solid lightgrey;
+  display: flex;
+  justify-content: space-between;
+}
+.stats{
+  text-align: right;
+  padding-top: 15px;
 }
 .adviser{
   background-color: #92D4EA;
-  display: flex;
-
 
 }
 .bell-splesh{
-  width: 46px;
-  height: 46px;
-  display: inline-block;
+  width: 30%;
+  height: 100%;
+  float: left;
+  font-size: 20px;
+
+}
+.fa-bell-slash{
+  margin-top: 10px;
+  margin-left: 10px;
 }
 .notice{
-  font-size: 12px;
-  width: 220px;
-  height: 46px;
-  display: inline-block;
+  width: 70%;
+  height: 100%;
+  float: right;
+
+}
+.notice>p{
+  font-size: 8px;
+
 }
 .contacts{
   width: 100%;
-  height: 6%;
+  height: 7%;
   border-top: 1px solid lightgrey;
   border-bottom: 1px solid lightgrey;
   display: flex;
@@ -91,7 +105,7 @@
 }
 .msgbox{
   width: 60%;
-  height: 95%;
+  height: 93%;
   background-image: url("wallpaper.jpg");
   background-repeat: repeat;
   float: left;
@@ -99,7 +113,7 @@
 }
 .sender{
   width: 100%;
-  height: 6%;
+  height: 7%;
   background-color: #F1F1F1;
 }
 .search{
@@ -113,10 +127,11 @@
   border-radius: 5px;
 }
 img{
-  width: 45px;
-  height: 45px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   margin-top: 1px;
+  margin-left: 5px;
 }
 .msg-text-in{
   width: 150px;
@@ -156,16 +171,23 @@ img{
   background-color: yellow;
 }
 .msg{
-  width: 100%;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
 }
 .msgtype{
   border: none;
-  margin-top: 15px;
+  margin-top: 8px;
   margin-left: 25px;
+
 }
-#face>i{
-  margin-left: 15px;
+.fa-laugh, .fa-microphone{
+  margin-top: 8px;
 }
-#mic>i{
-  margin-left: 180px;
+.fa-laugh{
+  margin-left: 10px;
+}
+.fa-microphone{
+  margin-right: 10px;
 }
