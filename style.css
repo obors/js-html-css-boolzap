@@ -79,24 +79,23 @@
 
 }
 .bell-splesh{
-  width: 30%;
-  height: 100%;
+  width: 45px;
+  height: 45px;
   float: left;
   font-size: 20px;
-
+  background-color: white;
+  border-radius: 50%;
+  margin:auto;
 }
 .fa-bell-slash{
-  margin-top: 10px;
+  margin-top: 11px;
   margin-left: 10px;
 }
-.notice{
-  width: 70%;
+#notice{
+  width: 85%;
   height: 100%;
   float: right;
-
-}
-.notice>p{
-  font-size: 8px;
+  padding: 10px;
 
 }
 .contacts{
@@ -105,6 +104,11 @@
   border-top: 1px solid lightgrey;
   border-bottom: 1px solid lightgrey;
   display: flex;
+
+}
+.notices{
+  text-align: left;
+  font-size: 12px;
 
 }
 .msgbox{
@@ -129,24 +133,51 @@
 
 }
 .senderadds i{
-    margin-right: 5px;
+  margin-right: 5px;
 }
 .search{
-  width: 94%;
+  padding: 10px;
+  width: 90%;
   border: none;
   padding-left: 15px;
 }
 #searcher{
   background-color: white;
-  height: 3%;
+  height: 4%;
   border-radius: 5px;
+}
+.fa-search{
+  cursor: pointer;
 }
 img{
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  margin-top: 1px;
+  margin-top:3px;
   margin-left: 5px;
+}
+.nametime{
+  width: 80%;
+  height: 100%;
+  padding: 15px;
+}
+.timeon{
+  width: 20px;
+  height: 10px;
+  right: 0;
+  margin-top: 10px;
+  background-color: yellow;
+}
+.about{
+  color: lightgrey;
+}
+h3{
+  font-size: 15px;
+  font-style: roboto;
+}
+.hsender{
+  right: 0;
+  margin-top: 15px;
 }
 .msg-text-in{
   width: 150px;
@@ -195,14 +226,21 @@ img{
   border: none;
   margin-top: 8px;
   margin-left: 25px;
-
+  padding: 10px;
 }
-.fa-laugh, .fa-microphone{
-  margin-top: 8px;
+.fa-laugh, .fa-microphone, .fa-paper-plane{
+  margin-top: 15px;
 }
 .fa-laugh{
   margin-left: 10px;
 }
 .fa-microphone{
   margin-right: 10px;
+}
+.send{
+  display: none;
+
+}
+.fa-paper-plane{
+  cursor: pointer;
 }
