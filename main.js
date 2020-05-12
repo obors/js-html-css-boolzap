@@ -5,11 +5,9 @@ $(".msgtype").dblclick(function (){
 $(".send").hide()
 })
 $(".fa-paper-plane").click(function (){
-$(".send").hide()
+
+$(".send").hide();
 })
-// $(".document").ready(function (){
-//   var i=1;
-// $(".send").click(function (){
-//   i++;  $()
-// }
-// })
+
+// Var $msgInput=$("input:msg");
+// var msgTextIn = $msgInput.val();
